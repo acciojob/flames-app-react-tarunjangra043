@@ -1,6 +1,5 @@
 import React from "react";
-import FlamesGame from "./components/FlamesGame";
-import "./styles/FlamesGame.css";
+import FlamesGame from "./FlamesGame";
 
 function App() {
   return (

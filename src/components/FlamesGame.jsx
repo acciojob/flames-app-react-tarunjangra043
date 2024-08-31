@@ -56,6 +56,7 @@ function FlamesGame() {
         type="text"
         data-testid="input1"
         value={name1}
+        name="name1"
         onChange={handleName1Change}
         placeholder="Enter first name"
       />
@@ -63,6 +64,7 @@ function FlamesGame() {
         type="text"
         data-testid="input2"
         value={name2}
+        name="name2"
         onChange={handleName2Change}
         placeholder="Enter second name"
       />
